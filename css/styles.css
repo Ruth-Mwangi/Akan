@@ -32,5 +32,32 @@ body{
 
 .body{
     display: block;
+    border: solid black 2px;
+    background-color: rgba(212,175,55,0.5);
     margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+}
+.body p{
+    text-align: center;
+   
+}
+form {
+    margin-left: 250px;
+    font: outline;
+    font-size: medium;
+    font-weight: bolder;
+    border: ridge black 3px;
+    margin-right: 250px;
+    box-shadow: 0 0 3px #faed27, 0 0 5px #39ff14;
+    padding: 20px;
+    display: block;
+    
+    
+    
+    
 }
