@@ -17,3 +17,15 @@ body{
     text-decoration: wavy black 5px;
 
 }
+
+.header h2{
+    letter-spacing: 5px;
+    text-decoration: underline wavy black 2px;
+    
+}
+.header span{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-shadow: 0 0 3px #faed27, 0 0 5px #39ff14;
+}
