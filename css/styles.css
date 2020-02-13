@@ -20,7 +20,7 @@ body{
 
 .header h2{
     letter-spacing: 5px;
-    text-decoration: underline wavy black 2px;
+    text-decoration: underline solid black 2px;
     
 }
 .header span{
@@ -28,4 +28,9 @@ body{
     font-weight: bolder;
     font-size: xx-large;
     text-shadow: 0 0 3px #faed27, 0 0 5px #39ff14;
+}
+
+.body{
+    display: block;
+    margin-left: 200px;
 }
