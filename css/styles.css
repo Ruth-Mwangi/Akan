@@ -8,3 +8,12 @@ body{
     text-align: center;
 }
 
+.header h1{
+    text-shadow: 0 0 3px #faed27, 0 0 5px #39ff14;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-decoration: wavy black 5px;
+
+}
