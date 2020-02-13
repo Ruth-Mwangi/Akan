@@ -67,3 +67,13 @@ label{
     font-weight: bolder;
 }
 
+.form-group input[type=text], select, input[type=number] {
+    width: 70%;
+    font-weight: bolder;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: block;
+    
+  }
+
