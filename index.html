@@ -32,7 +32,7 @@
                 <div class="form-group">
                     
                     <label for="bddate">Birth Date</label>
-                    <input type="number" name="bddate" id="bddate" min="1" max="31" placeholder="eg. 01,12,31">
+                    <input type="number" name="bddate" id="bddate" min="1" max="31" placeholder="eg. 01,12,31" required pattern="0[1-9]|[1-2][0-9]|3[0-1]" title="Date is between 1 and 31" >
                     
                 </div>
 
@@ -48,18 +48,18 @@
 
                 <div class="form-group">
                    
-                    <button class="button" onclick="myFunction()">Get Name</button>
+                    <button class="button" onclick="akanName()" type="button">Get Name</button>
 
                 </div>
 
             </form> 
         
-        </div>
+        </div>  
+       
+        <h2 id="day-born">You were born on a + </h2>
+ 
+        <h1 id="name">Your Akan name is </h1>
         <script src="js/scripts.js"></script>
-        <h2 class="akan-name">Your Akan name is</h2>
-        <h1 class="name"></h1>
-
-
-        
+       
     </body>
 </html>
