@@ -82,15 +82,33 @@ label{
     border: solid 2px;
     
 }
-.akan-name{
+#day-born{
     text-align: center;
     color: whitesmoke;
     animation: akan-name 2s ease-out;
 }
-.name{
+#name{
+    text-align: center;
+    color: black;
+    animation: name 10s ease-out;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: white dotted 4px;
+}
+#day-born{
     text-align: center;
     color: whitesmoke;
-    animation: name 2s ease-out;
+    animation: akan-name 2s ease-out;
+}
+#name{
+    text-align: center;
+    color: black;
+    animation: name 10s ease-out;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: white dotted 4px;
 }
 
 
@@ -98,7 +116,7 @@ label{
 
 @keyframes akan-name {
     0%   { 
-    transform: translateX(900%); 		
+    transform: translateX(100%); 		
     }
     100% { 
     transform: translateX(0%); 
@@ -114,3 +132,7 @@ label{
     }
 }
 
+i{
+    color: white;
+    background-color: gray;
+}
