@@ -22,6 +22,10 @@ function akanName(){
         document.getElementById("name").innerText=female[dayOfTheWeek];
 
     }
+    else{
+        document.getElementById("day-born").innerText=days[dayOfTheWeek];
+        document.getElementById("name").innerText=male[dayOfTheWeek];
+    }
 
 
 }
