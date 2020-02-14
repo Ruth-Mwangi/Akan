@@ -18,13 +18,13 @@ function akanName(){
     var dayOfTheWeek=parseInt((( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD )%7));
     if (gender === "female"){
 
-        document.getElementById("day-born").innerText=days[dayOfTheWeek];
-        document.getElementById("name").innerText=female[dayOfTheWeek];
+        document.getElementById("day-born").innerText=("You were born on "+days[dayOfTheWeek]);
+        document.getElementById("name").innerText=("Your Akan name is "+ female[dayOfTheWeek]);
 
     }
     else{
-        document.getElementById("day-born").innerText=days[dayOfTheWeek];
-        document.getElementById("name").innerText=male[dayOfTheWeek];
+        document.getElementById("day-born").innerText=("You were born on "+days[dayOfTheWeek]);
+        document.getElementById("name").innerText=("Your Akan name is "+ male[dayOfTheWeek]);
     }
 
 
