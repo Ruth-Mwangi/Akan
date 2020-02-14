@@ -9,8 +9,8 @@ body{
 }
 
 .header h1{
-    text-shadow: 0 0 3px #faed27, 0 0 5px #39ff14;
-    padding-bottom: 10px;
+    text-shadow: 0 0 3px #faed27, 0 0 5px #b92e34;
+    padding-bottom: 5px;
     padding-top: 20px;
     text-transform: uppercase;
     letter-spacing: 10px;
@@ -36,7 +36,7 @@ body{
     background-color: rgba(212,175,55,0.5);
     margin-left: 200px;
     margin-right: 200px;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 10px;
     padding-top: 20px;
     padding-bottom: 40px;
@@ -53,14 +53,14 @@ form {
     font-weight: bolder;
     border: ridge black 3px;
     margin-right: 250px;
-    box-shadow: 0 0 3px #faed27, 0 0 5px #39ff14;
+    box-shadow: 0 0 3px #faed27, 0 0 5px #b92e34;
     padding: 20px;
     display: block;   
     
 }
 p{
     font-weight: bold;
-    font-size: large;
+    font-size: medium;
 }
 
 label{
@@ -95,6 +95,7 @@ label{
     text-transform: uppercase;
     letter-spacing: 2px;
     border: white dotted 4px;
+    box-shadow: 0 0 3px #faed27, 0 0 5px #39ff14;
 }
 #day-born{
     text-align: center;
