@@ -11,6 +11,8 @@ function akanName(){
         return;
         
     }
+    var gender = document.getElementById("gender").value;
+
    
 
 
