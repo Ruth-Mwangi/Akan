@@ -1,139 +1,160 @@
-body{
-    background: url(../images/background.jpg);
-    background-size: cover;
-    display: block;
-}
-.header{
-    margin-top: 10px;
-    text-align: center;
-}
-
-.header h1{
-    text-shadow: 0 0 3px #faed27, 0 0 5px #b92e34;
-    padding-bottom: 5px;
-    padding-top: 20px;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    text-decoration: wavy black 5px;
-
-}
-
-.header h3{
-    letter-spacing: 5px;
-    text-decoration: underline solid black 2px;
+@media screen and (min-width: 1110px) {
+    body{
+        background: url(../images/background.jpg);
+        background-size: cover;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+    }
+    .header{
+        margin-top: 10px;
+        text-align: center;
+    }
     
-}
-.header span{
-    text-transform: uppercase;
-    font-weight: bolder;
-    font-size: xx-large;
-    text-shadow: 0 0 3px #faed27, 0 0 5px #39ff14;
-}
-
-.body{
-    display: block;
+    .header h1{
+        text-shadow: 0 0 3px #faed27, 0 0 5px #b92e34;
+        padding-bottom: 5px;
+        padding-top: 20px;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        text-decoration: wavy black 5px;
     
-    background-color: rgba(212,175,55,0.5);
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    padding-top: 20px;
-    padding-bottom: 40px;
-
-}
-.body p{
-    text-align: center;
-   
-}
-form {
-    margin-left: 250px;
-    font: outline;
-    font-size: medium;
-    font-weight: bolder;
-    border: ridge black 3px;
-    margin-right: 250px;
-    box-shadow: 0 0 3px #faed27, 0 0 5px #b92e34;
-    padding: 20px;
-    display: block;   
+    }
     
-}
-p{
-    font-weight: bold;
-    font-size: medium;
-}
-
-label{
-    font-weight: bolder;
-}
-
-.form-group input[type=text], select, input[type=number] {
-    width: 100%;
-    font-weight: bolder;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    display: block;
+    .header h3{
+        letter-spacing: 5px;
+        text-decoration: underline solid black 2px;
+        
+    }
+    .header span{
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-size: xx-large;
+        text-shadow: 0 0 3px #faed27, 0 0 5px #39ff14;
+        font-style: italic;
+        
+    }
     
+    .body{
+        display: block;
+        
+        
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    
+    }
+    .body p{
+        text-align: left;
+        color: blanchedalmond;
+        font-weight: bolder;
+        border: black dotted;
+        font-family: monospace;
+        font-size: large;
+        padding: 12px;
+       
+    }
+    form {
+        margin-left: 250px;
+        font: outline;
+        font-size: medium;
+        font-weight: bolder;
+        border: ridge black 3px;
+        margin-right: 250px;
+        box-shadow: 0 0 3px #faed27, 0 0 5px #b92e34;
+        padding: 20px;
+        display: grid;   
+        background-color: rgba(212,175,55,0.5);
+        
+    }
+    p{
+        font-weight: bold;
+        font-size: medium;
+        
+    }
+    
+    label{
+        font-weight: bolder;
+    }
+    
+    .form-group input[type=text], select, input[type=number] {
+        width: 100%;
+        font-weight: bolder;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        display: block;
+        
+      }
+    
+      button{
+        margin-top: 20px;
+        border: solid 2px;
+        float: right;
+        
+    }
+    #day-born{
+        text-align: center;
+        color: black;
+        animation: day-born 10s ease-out;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: monospace;
+        font-weight: bolder;
+    }
+    #name{
+        text-align: center;
+        color: blanchedalmond;
+        animation: name 10s ease-out;
+        position: relative;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        border: black solid 4px;
+        box-shadow: 0 0 3px #faed27, 0 0 5px #39ff14;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: monospace;
+    }
+    
+    
+    
+    
+    @keyframes day-born {
+        0%   { 
+        transform: translateX(200%); 		
+        }
+        100% { 
+        transform: translateX(0%); 
+        }
+    }
+    
+    @keyframes name {
+        0%   { 
+        transform: translateX(200%); 		
+        }
+        100% { 
+        transform: translateX(0%); 
+        }
+    }
+    
+    i{
+        color: blanchedalmond;
+        
+    }
+
+}
+@media screen and (min-width: 480px) and (max-width: 1109px) {
+    body {
+        background: url(../images/background.jpg);
+        background-size: cover;
+        color: black;
+        padding: 15px;
+    }
+
   }
-
-  button{
-    margin-left: 220px;
-    border: solid 2px;
-    
-}
-#day-born{
-    text-align: center;
-    color: whitesmoke;
-    animation: akan-name 2s ease-out;
-}
-#name{
-    text-align: center;
-    color: black;
-    animation: name 10s ease-out;
-    position: relative;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    border: white dotted 4px;
-    box-shadow: 0 0 3px #faed27, 0 0 5px #39ff14;
-}
-#day-born{
-    text-align: center;
-    color: whitesmoke;
-    animation: akan-name 2s ease-out;
-}
-#name{
-    text-align: center;
-    color: black;
-    animation: name 10s ease-out;
-    position: relative;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    border: white dotted 4px;
-}
-
-
-
-
-@keyframes akan-name {
-    0%   { 
-    transform: translateX(100%); 		
-    }
-    100% { 
-    transform: translateX(0%); 
-    }
-}
-
-@keyframes name {
-    0%   { 
-    transform: translateX(100%); 		
-    }
-    100% { 
-    transform: translateX(0%); 
-    }
-}
-
-i{
-    color: white;
-    background-color: gray;
-}
