@@ -4,20 +4,22 @@
         <title>Akan Names</title>
         <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
         <link rel="stylesheet" href="css/styles.css" type="text/css" media="all">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     </head>
     <body>
         <div class="header">
-            <h1>Akan Name Generator</h1>
+            <h1><u>Akan Name Generator</u> </h1>
             <h3><span class="akan">Akan</span> tell you your name!</h3>
         </div>
+        
 
         <div class="body">
             <p>The <span class="ang">Akan Name Generator</span>  tells you your Ghanaian <span class="akan">Akan</span> name by using your birthday and gender information.
                 The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further 
                 meanings concerning the soul and character of the person. 
-                So go on ahead and fill the form down below!!</p>
+                So go on ahead and fill the form down below!! </p>
 
-            <form action="">
+            <form id="myForm">
                 <div class="form-group">
                     <label for="bdyear">Birth Year</label>
                     <input type="text" name="bdyear" id="bdyear" placeholder="eg.1996.....">
@@ -47,20 +49,22 @@
                     </select>
             
                 </div>
-
                 <div class="form-group">
                    
                     <button class="button" onclick="akanName()" type="button">Get Name</button>
-
+    
                 </div>
 
+
             </form> 
+           
+            <h2 id="day-born">You were born on a  </h2>
+ 
+            <h1 id="name">Your Akan name is </h1>
         
         </div>  
        
-        <h2 id="day-born">You were born on a  </h2>
- 
-        <h1 id="name">Your Akan name is </h1>
+        
         <script src="js/scripts.js"></script>
        
     </body>
