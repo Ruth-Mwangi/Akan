@@ -9,7 +9,7 @@ The purpose of this project is to create a website that generates your Akan name
 * Navigate to appropriate directory usind the cd command
 * type in the command git clone and paste the url of clone and then press enter 
 * run the index file in the folder downloaded
-You can use th live link 
+You can use th live link https://ruth-mwangi.github.io/Akan/
 
 ## Technologies Used
 HTML
