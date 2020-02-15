@@ -13,56 +13,63 @@
         </div>
         
 
-        <div class="body">
-            <p>The <span class="ang">Akan Name Generator</span>  tells you your Ghanaian <span class="akan">Akan</span> name by using your birthday and gender information.
-                The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further 
-                meanings concerning the soul and character of the person. 
-                So go on ahead and fill the form down below!! </p>
-
-            <form id="myForm">
-                <div class="form-group">
-                    <label for="bdyear">Birth Year</label>
-                    <input type="text" name="bdyear" id="bdyear" placeholder="eg.1996.....">
-                    
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <p>The <span class="ang">Akan Name Generator</span>  tells you your Ghanaian <span class="akan">Akan</span> name by using your birthday and gender information.
+                        The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further 
+                        meanings concerning the soul and character of the person. 
+                        So go on ahead and fill the form !! </p>
                 </div>
-
-                <div class="form-group">
+    
+                <div class="col-md-7">
+                    <form id="myForm">
+                        <div class="form-group">
+                            <label for="bdyear">Birth Year</label>
+                            <input type="text" name="bdyear" id="bdyear" placeholder="eg.1996.....">
+                            
+                        </div>
+        
+                        <div class="form-group">
+                            
+                            <label for="bdmonth">Birth Month</label>
+                            <input type="number" name="bdmonth" id="bdmonth" max="12" min="1" placeholder="eg.01 for January, 05 for May, 12 for December">
+                            
+                        </div>
+        
+                        <div class="form-group">
+                            
+                            <label for="bddate">Birth Date</label>
+                            <input type="number" name="bddate" id="bddate" min="1" max="31" placeholder="eg. 01,12,31" required pattern="0[1-9]|[1-2][0-9]|3[0-1]" title="Date is between 1 and 31" >
+                            
+                        </div>
+        
+                        <div class="form-group">
+                           
+                            <label for="gender">Choose Gender</label>
+                            <select name="gender" id="gender">
+                                <option value="female">Female</option>
+                                <option value="male">Male</option>
+                            </select>
                     
-                    <label for="bdmonth">Birth Month</label>
-                    <input type="number" name="bdmonth" id="bdmonth" max="12" min="1" placeholder="eg.01 for January, 05 for May, 12 for December">
-                    
-                </div>
-
-                <div class="form-group">
-                    
-                    <label for="bddate">Birth Date</label>
-                    <input type="number" name="bddate" id="bddate" min="1" max="31" placeholder="eg. 01,12,31" required pattern="0[1-9]|[1-2][0-9]|3[0-1]" title="Date is between 1 and 31" >
-                    
-                </div>
-
-                <div class="form-group">
-                   
-                    <label for="gender">Choose Gender</label>
-                    <select name="gender" id="gender">
-                        <option value="female">Female</option>
-                        <option value="male">Male</option>
-                    </select>
+                        </div>
+                        <div class="form-group">
+                           
+                            <button class="button" onclick="akanName()" type="button">Get Name</button>
             
-                </div>
-                <div class="form-group">
-                   
-                    <button class="button" onclick="akanName()" type="button">Get Name</button>
+                        </div>
+        
+        
+                    </form> 
     
                 </div>
 
-
-            </form> 
-           
-            <h2 id="day-born">You were born on a  </h2>
- 
-            <h1 id="name">Your Akan name is </h1>
+            </div>   
         
-        </div>  
+        </div> 
+        <h2 id="day-born">You were born on a  </h2>
+ 
+        <h1 id="name">Your Akan name is </h1> 
        
         
         <script src="js/scripts.js"></script>
