@@ -2,7 +2,6 @@
     body{
         background: url(../images/background.jpg);
         background-size: cover;
-        display: block;
         margin-left: auto;
         margin-right: auto;
         width: fit-content;
@@ -32,50 +31,50 @@
         font-weight: bolder;
         font-size: xx-large;
         text-shadow: 0 0 3px #faed27, 0 0 5px #39ff14;
-        font-style: italic;
+        
         
     }
     
-    .body{
-        display: block;
-        
-        
-        margin-left: 200px;
-        margin-right: 200px;
-        margin-top: 5px;
-        margin-bottom: 10px;
-        padding-top: 20px;
-        padding-bottom: 40px;
-    
-    }
-    .body p{
-        text-align: left;
-        color: blanchedalmond;
-        font-weight: bolder;
-        border: black dotted;
-        font-family: monospace;
-        font-size: large;
-        padding: 12px;
        
+        
+    .container{
+        margin-top: 80px;
+        margin-bottom: 50px;
+
     }
+    
+    
+    .col-md-5{
+        
+        text-align: left;
+        color: black;
+        font-weight: bolder;
+        font-family: monospace;
+        padding-top: 80px;
+        
+        
+
+    }
+
+    p{
+        font-size: large;
+        border: blanchedalmond dotted;
+    }
+
+    
     form {
-        margin-left: 250px;
+        
         font: outline;
         font-size: medium;
         font-weight: bolder;
         border: ridge black 3px;
-        margin-right: 250px;
         box-shadow: 0 0 3px #faed27, 0 0 5px #b92e34;
         padding: 20px;
         display: grid;   
         background-color: rgba(212,175,55,0.5);
         
     }
-    p{
-        font-weight: bold;
-        font-size: medium;
-        
-    }
+    
     
     label{
         font-weight: bolder;
